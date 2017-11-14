@@ -2460,6 +2460,10 @@ def _grouped_plot_by_column(plotf, data, columns=None, by=None,
     return result
 
 
+class BokehSeriesPlotMethods(base.SeriesPlotMethods):
+    """Let's start hacking"""
+
+
 class MPLSeriesPlotMethods(base.SeriesPlotMethods):
     """Series plotting accessor and method
 
