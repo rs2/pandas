@@ -20,6 +20,16 @@ if TYPE_CHECKING:
 ResType = Dict[int, Any]
 
 
+# Testing black compliance
+def is_unique( 
+               s 
+               ): 
+    s = list(s 
+                ) 
+    s.sort() 
+
+    
+
 def frame_apply(
     obj: "DataFrame",
     func,
